@@ -52,6 +52,7 @@ header{
     font-family: 'Gemunu Libre', sans-serif;
     letter-spacing: 3px;
     color: rgb(92, 219, 148);
+    cursor: pointer;
 }
 .logo-container>h1>span{
     color: white;
@@ -130,6 +131,7 @@ header{
      border: none;
      border-radius: 3px;
      color: black;
+     cursor: pointer;
  }
  .content-container > button:hover{
      background-color: rgb(224,224,224);
@@ -458,7 +460,12 @@ header{
     color: black;
     margin: 20px 5px;
 }
-
+.contact-container li  p  a {
+    color: black;
+}
+.contact-container li p a:hover{
+    border-bottom: 1px solid black;
+}
 
 hr{
     border: 1px solid black;
@@ -476,6 +483,8 @@ hr{
     font-family: 'Gemunu Libre', sans-serif;
     font-size: 12px;
 }
+
+
 .copyright-container span{
     font-weight: bolder;
 }
